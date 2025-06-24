@@ -3,12 +3,12 @@ entries:
   wp-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-06-24T18:14:51.446269+08:00"
+    created: "2025-06-24T20:28:41.967248+08:00"
     description: A Custom Helm chart for Wordpress Sites
-    digest: 4116ffd6e0c36fd9c2c3a8b97736d055fcee13224f9cf6b63f0662d479bb872f
+    digest: d29b4b2dbda9367fc906f48aafe1e9e53b1ca72e79bcd832617935be4b694b9c
     name: wp-chart
     type: application
     urls:
-    - https://github.com/lhes23/helm-charts/wp-chart-0.1.1.tgz
-    version: 0.1.1
-generated: "2025-06-24T18:14:51.442108+08:00"
+    - https://lhes23.github.io/helm-charts/wp-chart-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-06-24T20:28:41.962062+08:00"
