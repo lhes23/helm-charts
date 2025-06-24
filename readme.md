@@ -7,5 +7,11 @@ This repository contains custom Helm charts. It is configured as a Helm reposito
 Add this Helm repo to your local Helm client:
 
 ```bash
-helm repo add my-helm-repo https://lhes23.github.io/helm-charts/
+helm repo add myrepo https://lhes23.github.io/helm-charts/
 helm repo update
+```
+
+## Install the chart
+```
+helm install my-wordpress my-helm-repo/wp-chart -f values.yaml
+```
